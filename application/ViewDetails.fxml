@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="625.0" prefWidth="791.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.ViewDetailsController">
+   <children>
+      <TextField fx:id="id" layoutX="284.0" layoutY="108.0" promptText="Student ID" />
+      <Button fx:id="personal" layoutX="138.0" layoutY="356.0" mnemonicParsing="false" onAction="#showPersonal" text="Personal Details" />
+      <Button fx:id="academic" layoutX="357.0" layoutY="356.0" mnemonicParsing="false" onAction="#showAcademic" text="Academic Details" />
+      <Button fx:id="parent" layoutX="576.0" layoutY="356.0" mnemonicParsing="false" onAction="#showParent" text="Parent Details" />
+   </children>
+</AnchorPane>

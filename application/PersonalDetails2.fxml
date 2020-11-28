@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="582.0" prefWidth="807.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.PersonalDetailsController">
+   <children>
+      <Label fx:id="result" layoutX="383.0" layoutY="31.0" />
+      <Label layoutX="71.0" layoutY="38.0" text="First Name" />
+      <Label layoutX="71.0" layoutY="72.0" text="Middle Name" />
+      <Label layoutX="72.0" layoutY="113.0" text="Last Name" />
+      <Label layoutX="80.0" layoutY="186.0" text="Email" />
+      <Label layoutX="77.0" layoutY="291.0" text="Date Of Birth" />
+      <Label layoutX="72.0" layoutY="220.0" text="Gender" />
+      <Label layoutX="76.0" layoutY="366.0" text="Caste" />
+      <Label layoutX="72.0" layoutY="256.0" text="Category" />
+      <Label layoutX="72.0" layoutY="153.0" text="Phone" />
+      <Label layoutX="62.0" layoutY="488.0" text="EWS" />
+      <Label layoutX="77.0" layoutY="326.0" text="Mother Tongue" />
+      <Label layoutX="63.0" layoutY="446.0" text="Disabled" />
+      <Label layoutX="56.0" layoutY="515.0" text="Aadhar Number" />
+      <Label layoutX="77.0" layoutY="404.0" text="Religion" />
+      <Label fx:id="fName" layoutX="231.0" layoutY="38.0" />
+      <Label fx:id="mName" layoutX="238.0" layoutY="72.0" />
+      <Label fx:id="lName" layoutX="231.0" layoutY="113.0" />
+      <Label fx:id="phone" layoutX="231.0" layoutY="153.0" />
+      <Label fx:id="email" layoutX="231.0" layoutY="186.0" />
+      <Label fx:id="gender" layoutX="238.0" layoutY="220.0" />
+      <Label fx:id="category" layoutX="231.0" layoutY="256.0" />
+      <Label fx:id="dob" layoutX="231.0" layoutY="291.0" />
+      <Label fx:id="mother_tongue" layoutX="231.0" layoutY="326.0" />
+      <Label fx:id="caste" layoutX="238.0" layoutY="366.0" />
+      <Label fx:id="religion" layoutX="238.0" layoutY="404.0" />
+      <Label fx:id="disabled" layoutX="238.0" layoutY="446.0" />
+      <Label fx:id="ews" layoutX="238.0" layoutY="488.0" />
+      <Label fx:id="aadhar" layoutX="238.0" layoutY="515.0" />
+   </children>
+</AnchorPane>

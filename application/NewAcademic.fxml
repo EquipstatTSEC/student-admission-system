@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="592.0" prefWidth="902.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewAcademicController">
+   <children>
+      <Label layoutX="47.0" layoutY="32.0" text="Student ID: " />
+      <Label fx:id="result" layoutX="173.0" layoutY="32.0" />
+      <TextField fx:id="cet" layoutX="166.0" layoutY="68.0" promptText="CET Percentile" />
+      <TextField fx:id="jee" layoutX="166.0" layoutY="136.0" promptText="JEE Percentile" />
+      <TextField fx:id="hscMarks" layoutX="166.0" layoutY="208.0" promptText="HSC or Equivalent %" />
+      <TextField fx:id="sscYear" layoutX="166.0" layoutY="419.0" promptText="SSC Passing Year" />
+      <TextField fx:id="hscYear" layoutX="166.0" layoutY="347.0" promptText="HSC passing year" />
+      <TextField fx:id="sscMarks" layoutX="166.0" layoutY="279.0" promptText="SSC or Equivalent %" />
+      <Button fx:id="submit" layoutX="238.0" layoutY="483.0" mnemonicParsing="false" onAction="#onSubmit" text="Submit" />
+   </children>
+</AnchorPane>

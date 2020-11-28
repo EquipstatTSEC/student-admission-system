@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="651.0" prefWidth="947.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ParentDetailsController">
+   <children>
+      <Label layoutX="80.0" layoutY="102.0" text="First Name" />
+      <Label layoutX="80.0" layoutY="150.0" text="Middle Name" />
+      <Label layoutX="80.0" layoutY="193.0" text="Last Name" />
+      <Label layoutX="80.0" layoutY="238.0" text="Email" />
+      <Label layoutX="80.0" layoutY="284.0" text="Phone" />
+      <Label layoutX="80.0" layoutY="326.0" text="Occupation Type" />
+      <Label layoutX="80.0" layoutY="375.0" text="Occupation Name" />
+      <Label layoutX="80.0" layoutY="421.0" text="Annual Income" />
+      <Label fx:id="mfName" layoutX="358.0" layoutY="102.0" />
+      <Label fx:id="mmName" layoutX="358.0" layoutY="150.0" />
+      <Label fx:id="memail" layoutX="358.0" layoutY="241.0" />
+      <Label fx:id="mlName" layoutX="358.0" layoutY="193.0" />
+      <Label fx:id="moccupation" layoutX="358.0" layoutY="375.0" />
+      <Label fx:id="mincome" layoutX="358.0" layoutY="423.0" />
+      <Label fx:id="mtype" layoutX="358.0" layoutY="332.0" />
+      <Label fx:id="mphone" layoutX="358.0" layoutY="284.0" />
+      <Label fx:id="fphone" layoutX="618.0" layoutY="284.0" />
+      <Label fx:id="ftype" layoutX="618.0" layoutY="332.0" />
+      <Label fx:id="fincome" layoutX="618.0" layoutY="423.0" />
+      <Label fx:id="foccupation" layoutX="618.0" layoutY="375.0" />
+      <Label fx:id="flName" layoutX="618.0" layoutY="193.0" />
+      <Label fx:id="femail" layoutX="618.0" layoutY="241.0" />
+      <Label fx:id="fmName" layoutX="618.0" layoutY="150.0" />
+      <Label fx:id="ffName" layoutX="618.0" layoutY="102.0" />
+      <Label layoutX="314.0" layoutY="31.0" text="Mother's Details" />
+      <Label layoutX="583.0" layoutY="31.0" text="Father's Detail" />
+      <Label layoutX="36.0" layoutY="31.0" text="Student ID:" />
+      <Label fx:id="result" layoutX="145.0" layoutY="31.0" />
+   </children>
+</AnchorPane>

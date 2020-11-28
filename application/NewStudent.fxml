@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="ap" prefHeight="587.0" prefWidth="585.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewStudentController">
+   <children>
+      <TextField fx:id="fName" layoutX="37.0" layoutY="41.0" promptText="First Name" />
+      <Button fx:id="submit" layoutX="252.0" layoutY="519.0" mnemonicParsing="false" onAction="#onSubmit" text="Submit" />
+      <TextField fx:id="mName" layoutX="305.0" layoutY="47.0" promptText="Middle Name" />
+      <TextField fx:id="lName" layoutX="37.0" layoutY="101.0" promptText="Last Name" />
+      <TextField fx:id="phone" layoutX="312.0" layoutY="101.0" promptText="Phone Number" />
+      <TextField fx:id="email" layoutX="37.0" layoutY="179.0" promptText="Email" />
+      <TextField fx:id="dob" layoutX="312.0" layoutY="179.0" promptText="dd/mm/yyyy" />
+      <TextField fx:id="mother_tounge" layoutX="28.0" layoutY="255.0" promptText="Mother Toungue" />
+      <TextField fx:id="caste" layoutX="305.0" layoutY="262.0" promptText="Caste" />
+      <TextField fx:id="religion" layoutX="37.0" layoutY="317.0" promptText="Religion" />
+      <RadioButton layoutX="305.0" layoutY="329.0" mnemonicParsing="false" selected="true" text="Male">
+         <toggleGroup>
+            <ToggleGroup fx:id="gender" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton layoutX="305.0" layoutY="364.0" mnemonicParsing="false" selected="true" text="Female" toggleGroup="$gender" />
+      <Label fx:id="result" layoutX="261.0" layoutY="1.0" />
+      <ChoiceBox fx:id="category" layoutX="56.0" layoutY="429.0" prefWidth="150.0" />
+      <TextField fx:id="aadhar" layoutX="282.0" layoutY="465.0" promptText="Aadhar Number" />
+      <RadioButton layoutX="305.0" layoutY="402.0" mnemonicParsing="false" selected="true" text="Non-Binary" toggleGroup="$gender" />
+      <Label layoutX="56.0" layoutY="402.0" text="Category" />
+      <CheckBox fx:id="ews" layoutX="56.0" layoutY="485.0" mnemonicParsing="false" text="EWS Student" />
+      <CheckBox fx:id="disabled" layoutX="56.0" layoutY="519.0" mnemonicParsing="false" text="Disabed" />
+   </children>
+</AnchorPane>

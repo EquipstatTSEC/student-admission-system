@@ -13,15 +13,16 @@ CREATE TABLE student (
   caste VARCHAR(30),
   religion VARCHAR(30),
   phone VARCHAR(10),
+  aadhar VARCHAR(15),
   PRIMARY KEY (id)
 );
 
 CREATE TABLE academic_detail(
   student_id INT NOT NULL,
-  CET_percentile NUMBER(3, 7),
-  JEE_percentile NUMBER(3, 7),
-  HSC_or_equivalent_percentage NUMBER(3, 7),
-  SSC_or_equivalent_percentage NUMBER(3, 7),
+  CET_percentile NUMBER(15, 7),
+  JEE_percentile NUMBER(15, 7),
+  HSC_or_equivalent_percentage NUMBER(15, 7),
+  SSC_or_equivalent_percentage NUMBER(15, 7),
   SSC_passing_year INT,
   HSC_passing_year INT,
   FOREIGN KEY (student_id) REFERENCES student(id) ON DELETE CASCADE,
