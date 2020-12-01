@@ -1,33 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="713.0" prefWidth="914.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewParentController">
+<AnchorPane prefHeight="791.0" prefWidth="1226.0" style="-fx-background-color: #464452;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewParentController">
    <children>
-      <Label fx:id="result" layoutX="489.0" layoutY="20.0" />
-      <Label layoutX="382.0" layoutY="20.0" text="Student ID: " />
-      <Label layoutX="130.0" layoutY="97.0" text="Mother Details" />
-      <Label layoutX="630.0" layoutY="110.0" text="Father Details" />
-      <TextField fx:id="mfName" layoutX="77.0" layoutY="157.0" promptText="First Name" />
-      <TextField fx:id="mmName" layoutX="77.0" layoutY="223.0" promptText="Middle Name" />
-      <TextField fx:id="ffName" layoutX="599.0" layoutY="170.0" promptText="First Name" />
-      <TextField fx:id="mlName" layoutX="77.0" layoutY="296.0" promptText="Last Name" />
-      <TextField fx:id="memail" layoutX="77.0" layoutY="361.0" promptText="Email" />
-      <TextField fx:id="femail" layoutX="599.0" layoutY="374.0" promptText="Email" />
-      <TextField fx:id="flName" layoutX="599.0" layoutY="309.0" promptText="Last Name" />
-      <TextField fx:id="fmName" layoutX="599.0" layoutY="236.0" promptText="Middle Name" />
-      <TextField fx:id="foccupation" layoutX="599.0" layoutY="561.0" promptText="Occupation Name" />
-      <TextField fx:id="fincome" layoutX="599.0" layoutY="623.0" promptText="Annual Income" />
-      <TextField fx:id="fphone" layoutX="599.0" layoutY="435.0" promptText="Phone" />
-      <TextField fx:id="mphone" layoutX="77.0" layoutY="422.0" promptText="Phone" />
-      <TextField fx:id="mincome" layoutX="77.0" layoutY="623.0" promptText="Annual Income" />
-      <TextField fx:id="moccupation" layoutX="77.0" layoutY="561.0" promptText="Occupation Name" />
-      <Button fx:id="submit" layoutX="389.0" layoutY="634.0" mnemonicParsing="false" onAction="#onSubmit" text="Submit" />
-      <ChoiceBox fx:id="mtype" layoutX="77.0" layoutY="487.0" prefHeight="46.0" prefWidth="224.0" />
-      <ChoiceBox fx:id="ftype" layoutX="599.0" layoutY="494.0" prefHeight="46.0" prefWidth="224.0" />
-      <Label fx:id="error" layoutX="27.0" layoutY="20.0" textFill="RED" />
+      <Label fx:id="result" layoutX="1039.0" layoutY="28.0" prefHeight="45.0" prefWidth="181.0" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Label layoutX="863.0" layoutY="28.0" text="Student ID: " textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Label layoutX="214.0" layoutY="85.0" text="Mother Details" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Label layoutX="884.0" layoutY="85.0" text="Father Details" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <TextField fx:id="mfName" layoutX="34.0" layoutY="133.0" prefHeight="39.0" prefWidth="148.0" promptText="First Name">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="mmName" layoutX="204.0" layoutY="133.0" prefHeight="39.0" prefWidth="160.0" promptText="Middle Name">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="ffName" layoutX="681.0" layoutY="133.0" prefHeight="39.0" prefWidth="148.0" promptText="First Name">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="mlName" layoutX="385.0" layoutY="133.0" prefHeight="39.0" prefWidth="182.0" promptText="Last Name">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="memail" layoutX="34.0" layoutY="211.0" promptText="Email">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="femail" layoutX="681.0" layoutY="211.0" prefHeight="39.0" prefWidth="224.0" promptText="Email">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="flName" layoutX="1046.0" layoutY="133.0" prefHeight="39.0" prefWidth="166.0" promptText="Last Name">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="fmName" layoutX="859.0" layoutY="133.0" prefHeight="39.0" prefWidth="160.0" promptText="Middle Name">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="foccupation" layoutX="681.0" layoutY="444.0" promptText="Occupation Name">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="fincome" layoutX="988.0" layoutY="444.0" prefHeight="44.0" prefWidth="231.0" promptText="Annual Income">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="fphone" layoutX="988.0" layoutY="211.0" prefHeight="44.0" prefWidth="224.0" promptText="Phone">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="mphone" layoutX="343.0" layoutY="211.0" promptText="Phone">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="mincome" layoutX="349.0" layoutY="444.0" promptText="Annual Income">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <TextField fx:id="moccupation" layoutX="34.0" layoutY="444.0" promptText="Occupation Name">
+         <font>
+            <Font size="20.0" />
+         </font></TextField>
+      <Button fx:id="submit" layoutX="516.0" layoutY="563.0" mnemonicParsing="false" onAction="#onSubmit" prefHeight="72.0" prefWidth="194.0" style="-fx-background-color: #28B4AD;" text="Submit" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font></Button>
+      <ChoiceBox fx:id="mtype" layoutX="39.0" layoutY="329.0" prefHeight="46.0" prefWidth="224.0" />
+      <ChoiceBox fx:id="ftype" layoutX="681.0" layoutY="329.0" prefHeight="46.0" prefWidth="224.0" />
+      <Label fx:id="error" layoutX="27.0" layoutY="20.0" textFill="RED">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="39.0" layoutY="284.0" text="Occupation Type:" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Label layoutX="681.0" layoutY="284.0" text="Ocuupation Type:-" textFill="WHITE">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Label layoutX="419.0" layoutY="12.0" style="-fx-background-color: #28B4AD;" text="Parent Details" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="37.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

@@ -13,8 +13,8 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="txtName" layoutX="114.0" layoutY="171.0" promptText="Agent ID" />
-      <PasswordField fx:id="txtPass" layoutX="114.0" layoutY="243.0" promptText="Password" />
-      <Button fx:id="btnLogin" layoutX="154.0" layoutY="307.0" mnemonicParsing="false" onAction="#onClick" prefHeight="31.0" prefWidth="96.0" text="Login" />
+      <TextField fx:id="txtName" layoutX="82.0" layoutY="114.0" promptText="Agent ID" />
+      <PasswordField fx:id="txtPass" layoutX="82.0" layoutY="189.0" promptText="Password" />
+      <Button fx:id="btnLogin" layoutX="131.0" layoutY="280.0" mnemonicParsing="false" onAction="#onClick" prefHeight="31.0" prefWidth="96.0" text="Login" />
    </children>
 </AnchorPane>

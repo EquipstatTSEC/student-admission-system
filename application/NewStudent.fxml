@@ -1,35 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="ap" prefHeight="587.0" prefWidth="585.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewStudentController">
+<AnchorPane fx:id="ap" prefHeight="718.0" prefWidth="844.0" style="-fx-background-color: #464452;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewStudentController">
    <children>
-      <TextField fx:id="fName" layoutX="37.0" layoutY="41.0" promptText="First Name" />
-      <Button fx:id="submit" layoutX="252.0" layoutY="519.0" mnemonicParsing="false" onAction="#onSubmit" text="Submit" />
-      <TextField fx:id="mName" layoutX="305.0" layoutY="47.0" promptText="Middle Name" />
-      <TextField fx:id="lName" layoutX="37.0" layoutY="101.0" promptText="Last Name" />
-      <TextField fx:id="phone" layoutX="312.0" layoutY="101.0" promptText="Phone Number" />
-      <TextField fx:id="email" layoutX="37.0" layoutY="179.0" promptText="Email" />
-      <TextField fx:id="dob" layoutX="312.0" layoutY="179.0" promptText="dd/mm/yyyy" />
-      <TextField fx:id="mother_tounge" layoutX="28.0" layoutY="255.0" promptText="Mother Toungue" />
-      <TextField fx:id="caste" layoutX="305.0" layoutY="262.0" promptText="Caste" />
-      <TextField fx:id="religion" layoutX="37.0" layoutY="317.0" promptText="Religion" />
-      <RadioButton layoutX="305.0" layoutY="329.0" mnemonicParsing="false" selected="true" text="Male">
+      <TextField fx:id="fName" layoutX="28.0" layoutY="97.0" promptText="First Name" />
+      <Button fx:id="submit" layoutX="653.0" layoutY="616.0" mnemonicParsing="false" onAction="#onSubmit" prefHeight="52.0" prefWidth="133.0" style="-fx-background-color: #28B4AD;" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="28.0" />
+         </font></Button>
+      <TextField fx:id="mName" layoutX="306.0" layoutY="97.0" promptText="Middle Name" />
+      <TextField fx:id="lName" layoutX="581.0" layoutY="97.0" promptText="Last Name" />
+      <TextField fx:id="phone" layoutX="28.0" layoutY="173.0" promptText="Phone Number" />
+      <TextField fx:id="email" layoutX="581.0" layoutY="173.0" promptText="Email" />
+      <TextField fx:id="dob" layoutX="306.0" layoutY="173.0" promptText="dd/mm/yyyy" />
+      <TextField fx:id="mother_tounge" layoutX="581.0" layoutY="247.0" promptText="Mother Toungue" />
+      <TextField fx:id="caste" layoutX="306.0" layoutY="247.0" promptText="Caste" />
+      <TextField fx:id="religion" layoutX="28.0" layoutY="247.0" promptText="Religion" />
+      <RadioButton layoutX="334.0" layoutY="468.0" mnemonicParsing="false" selected="true" text="Male" textFill="WHITE">
          <toggleGroup>
             <ToggleGroup fx:id="gender" />
          </toggleGroup>
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font>
       </RadioButton>
-      <RadioButton layoutX="305.0" layoutY="364.0" mnemonicParsing="false" selected="true" text="Female" toggleGroup="$gender" />
+      <RadioButton layoutX="334.0" layoutY="511.0" mnemonicParsing="false" selected="true" text="Female" textFill="WHITE" toggleGroup="$gender">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></RadioButton>
       <Label fx:id="result" layoutX="261.0" layoutY="1.0" />
-      <ChoiceBox fx:id="category" layoutX="56.0" layoutY="429.0" prefWidth="150.0" />
-      <TextField fx:id="aadhar" layoutX="282.0" layoutY="465.0" promptText="Aadhar Number" />
-      <RadioButton layoutX="305.0" layoutY="402.0" mnemonicParsing="false" selected="true" text="Non-Binary" toggleGroup="$gender" />
-      <Label layoutX="56.0" layoutY="402.0" text="Category" />
-      <CheckBox fx:id="ews" layoutX="56.0" layoutY="485.0" mnemonicParsing="false" text="EWS Student" />
-      <CheckBox fx:id="disabled" layoutX="56.0" layoutY="519.0" mnemonicParsing="false" text="Disabed" />
+      <ChoiceBox fx:id="category" layoutX="26.0" layoutY="429.0" prefWidth="150.0" />
+      <TextField fx:id="aadhar" layoutX="581.0" layoutY="388.0" promptText="Aadhar Number" />
+      <RadioButton layoutX="334.0" layoutY="557.0" mnemonicParsing="false" selected="true" text="Non-Binary" textFill="WHITE" toggleGroup="$gender">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></RadioButton>
+      <Label layoutX="26.0" layoutY="387.0" text="Category" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <CheckBox fx:id="ews" layoutX="26.0" layoutY="511.0" mnemonicParsing="false" text="EWS Student" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></CheckBox>
+      <CheckBox fx:id="disabled" layoutX="26.0" layoutY="557.0" mnemonicParsing="false" text="Disabed" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></CheckBox>
+      <Label layoutX="326.0" layoutY="388.0" text="Gender" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="29.0" />
+         </font>
+      </Label>
+      <Label layoutX="292.0" layoutY="21.0" prefHeight="49.0" prefWidth="247.0" style="-fx-background-color: #28b4ad;" text="Personal Details" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="33.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
