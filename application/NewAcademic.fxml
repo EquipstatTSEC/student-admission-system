@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="592.0" prefWidth="902.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewAcademicController">
+<AnchorPane prefHeight="614.0" prefWidth="959.0" style="-fx-background-color: #464452;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.NewAcademicController">
    <children>
-      <Label layoutX="47.0" layoutY="32.0" text="Student ID: " />
-      <Label fx:id="result" layoutX="173.0" layoutY="32.0" />
-      <TextField fx:id="cet" layoutX="166.0" layoutY="68.0" promptText="CET Percentile" />
-      <TextField fx:id="jee" layoutX="166.0" layoutY="136.0" promptText="JEE Percentile" />
-      <TextField fx:id="hscMarks" layoutX="166.0" layoutY="208.0" promptText="HSC or Equivalent %" />
-      <TextField fx:id="sscYear" layoutX="166.0" layoutY="419.0" promptText="SSC Passing Year" />
-      <TextField fx:id="hscYear" layoutX="166.0" layoutY="347.0" promptText="HSC passing year" />
-      <TextField fx:id="sscMarks" layoutX="166.0" layoutY="279.0" promptText="SSC or Equivalent %" />
-      <Button fx:id="submit" layoutX="238.0" layoutY="483.0" mnemonicParsing="false" onAction="#onSubmit" text="Submit" />
+      <Label layoutX="637.0" layoutY="27.0" text="Student ID: " textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label fx:id="result" layoutX="805.0" layoutY="32.0" prefHeight="27.0" prefWidth="94.0" />
+      <TextField fx:id="cet" layoutX="124.0" layoutY="204.0" promptText="CET Percentile" />
+      <TextField fx:id="jee" layoutX="504.0" layoutY="204.0" promptText="JEE Percentile" />
+      <TextField fx:id="hscMarks" layoutX="124.0" layoutY="278.0" promptText="HSC or Equivalent %" />
+      <TextField fx:id="sscYear" layoutX="504.0" layoutY="348.0" promptText="SSC Passing Year" />
+      <TextField fx:id="hscYear" layoutX="124.0" layoutY="348.0" promptText="HSC passing year" />
+      <TextField fx:id="sscMarks" layoutX="504.0" layoutY="278.0" promptText="SSC or Equivalent %" />
+      <Button fx:id="submit" layoutX="711.0" layoutY="482.0" mnemonicParsing="false" onAction="#onSubmit" prefHeight="57.0" prefWidth="141.0" style="-fx-background-color: #28B4AD;" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Button>
+      <Label layoutX="222.0" layoutY="79.0" prefHeight="68.0" prefWidth="342.0" style="-fx-background-color: #28B4AD;" text="  Academic Details  " textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="37.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

@@ -1,26 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="667.0" prefWidth="474.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.AcademicDetailsController">
+<AnchorPane prefHeight="551.0" prefWidth="676.0" style="-fx-background-color: #464452;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AcademicDetailsController">
    <children>
-      <Label layoutX="33.0" layoutY="40.0" text="Student ID: " />
-      <Label fx:id="result" layoutX="173.0" layoutY="40.0" />
-      <Label layoutX="59.0" layoutY="97.0" text="CET Percentile: " />
-      <Label layoutX="59.0" layoutY="135.0" text="JEE Percentile: " />
-      <Label layoutX="59.0" layoutY="178.0" text="HSC Year: " />
-      <Label layoutX="59.0" layoutY="222.0" text="SSC Year: " />
-      <Label layoutX="53.0" layoutY="264.0" text="HSC Marks:" />
-      <Label layoutX="54.0" layoutY="307.0" text="SSC Marks: " />
-      <Label fx:id="cet" layoutX="277.0" layoutY="97.0" />
-      <Label fx:id="jee" layoutX="277.0" layoutY="135.0" />
-      <Label fx:id="hscYear" layoutX="277.0" layoutY="178.0" />
-      <Label fx:id="sscYear" layoutX="277.0" layoutY="222.0" />
-      <Label fx:id="hscMarks" layoutX="277.0" layoutY="264.0" />
-      <Label fx:id="sscMarks" layoutX="277.0" layoutY="307.0" />
+      <Label layoutX="33.0" layoutY="40.0" text="Student ID: " textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label fx:id="result" layoutX="205.0" layoutY="48.0" prefHeight="23.0" prefWidth="130.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="18.0" />
+         </font></Label>
+      <Label layoutX="45.0" layoutY="165.0" text="CET Percentile: " textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label layoutX="47.0" layoutY="203.0" text="JEE Percentile: " textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label layoutX="45.0" layoutY="246.0" text="HSC Year: " textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label layoutX="48.0" layoutY="290.0" text="SSC Year: " textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label layoutX="48.0" layoutY="332.0" text="HSC Marks:" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label layoutX="48.0" layoutY="375.0" text="SSC Marks: " textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label fx:id="cet" layoutX="284.0" layoutY="165.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="18.0" />
+         </font></Label>
+      <Label fx:id="jee" layoutX="284.0" layoutY="203.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="18.0" />
+         </font></Label>
+      <Label fx:id="hscYear" layoutX="284.0" layoutY="246.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="18.0" />
+         </font></Label>
+      <Label fx:id="sscYear" layoutX="284.0" layoutY="290.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="18.0" />
+         </font></Label>
+      <Label fx:id="hscMarks" layoutX="284.0" layoutY="332.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="18.0" />
+         </font></Label>
+      <Label fx:id="sscMarks" layoutX="284.0" layoutY="375.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="18.0" />
+         </font></Label>
    </children>
 </AnchorPane>

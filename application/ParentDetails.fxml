@@ -1,39 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="651.0" prefWidth="947.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ParentDetailsController">
+<AnchorPane prefHeight="646.0" prefWidth="947.0" style="-fx-background-color: #464452;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ParentDetailsController">
    <children>
-      <Label layoutX="80.0" layoutY="102.0" text="First Name" />
-      <Label layoutX="80.0" layoutY="150.0" text="Middle Name" />
-      <Label layoutX="80.0" layoutY="193.0" text="Last Name" />
-      <Label layoutX="80.0" layoutY="238.0" text="Email" />
-      <Label layoutX="80.0" layoutY="284.0" text="Phone" />
-      <Label layoutX="80.0" layoutY="326.0" text="Occupation Type" />
-      <Label layoutX="80.0" layoutY="375.0" text="Occupation Name" />
-      <Label layoutX="80.0" layoutY="421.0" text="Annual Income" />
-      <Label fx:id="mfName" layoutX="358.0" layoutY="102.0" />
-      <Label fx:id="mmName" layoutX="358.0" layoutY="150.0" />
-      <Label fx:id="memail" layoutX="358.0" layoutY="241.0" />
-      <Label fx:id="mlName" layoutX="358.0" layoutY="193.0" />
-      <Label fx:id="moccupation" layoutX="358.0" layoutY="375.0" />
-      <Label fx:id="mincome" layoutX="358.0" layoutY="423.0" />
-      <Label fx:id="mtype" layoutX="358.0" layoutY="332.0" />
-      <Label fx:id="mphone" layoutX="358.0" layoutY="284.0" />
-      <Label fx:id="fphone" layoutX="618.0" layoutY="284.0" />
-      <Label fx:id="ftype" layoutX="618.0" layoutY="332.0" />
-      <Label fx:id="fincome" layoutX="618.0" layoutY="423.0" />
-      <Label fx:id="foccupation" layoutX="618.0" layoutY="375.0" />
-      <Label fx:id="flName" layoutX="618.0" layoutY="193.0" />
-      <Label fx:id="femail" layoutX="618.0" layoutY="241.0" />
-      <Label fx:id="fmName" layoutX="618.0" layoutY="150.0" />
-      <Label fx:id="ffName" layoutX="618.0" layoutY="102.0" />
-      <Label layoutX="314.0" layoutY="31.0" text="Mother's Details" />
-      <Label layoutX="583.0" layoutY="31.0" text="Father's Detail" />
-      <Label layoutX="36.0" layoutY="31.0" text="Student ID:" />
-      <Label fx:id="result" layoutX="145.0" layoutY="31.0" />
+      <Label layoutX="44.0" layoutY="204.0" text="First Name" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label layoutX="44.0" layoutY="252.0" text="Middle Name" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label layoutX="44.0" layoutY="295.0" text="Last Name" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label layoutX="44.0" layoutY="340.0" text="Email" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label layoutX="44.0" layoutY="386.0" text="Phone" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label layoutX="44.0" layoutY="428.0" text="Occupation Type" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label layoutX="44.0" layoutY="477.0" text="Occupation Name" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label layoutX="44.0" layoutY="523.0" text="Annual Income" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label fx:id="mfName" layoutX="358.0" layoutY="200.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="mmName" layoutX="358.0" layoutY="248.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="memail" layoutX="358.0" layoutY="339.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="mlName" layoutX="358.0" layoutY="291.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="moccupation" layoutX="358.0" layoutY="473.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="mincome" layoutX="358.0" layoutY="521.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="mtype" layoutX="358.0" layoutY="430.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="mphone" layoutX="358.0" layoutY="382.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="fphone" layoutX="618.0" layoutY="379.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="ftype" layoutX="618.0" layoutY="427.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="fincome" layoutX="618.0" layoutY="518.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="foccupation" layoutX="618.0" layoutY="470.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="flName" layoutX="618.0" layoutY="288.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="femail" layoutX="618.0" layoutY="336.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="fmName" layoutX="618.0" layoutY="245.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label fx:id="ffName" layoutX="618.0" layoutY="197.0" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="20.0" />
+         </font></Label>
+      <Label layoutX="314.0" layoutY="31.0" text="Mother's Details" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label layoutX="608.0" layoutY="31.0" text="Father's Detail" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label layoutX="8.0" layoutY="31.0" text="Student ID:" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="30.0" />
+         </font></Label>
+      <Label fx:id="result" layoutX="188.0" layoutY="37.0" prefHeight="30.0" prefWidth="92.0" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
    </children>
 </AnchorPane>

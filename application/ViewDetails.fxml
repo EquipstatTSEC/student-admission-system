@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane prefHeight="625.0" prefWidth="791.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.ViewDetailsController">
+<AnchorPane prefHeight="625.0" prefWidth="791.0" style="-fx-background-color: #464452;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ViewDetailsController">
    <children>
-      <TextField fx:id="id" layoutX="284.0" layoutY="108.0" promptText="Student ID" />
-      <Button fx:id="personal" layoutX="138.0" layoutY="356.0" mnemonicParsing="false" onAction="#showPersonal" text="Personal Details" />
-      <Button fx:id="academic" layoutX="357.0" layoutY="356.0" mnemonicParsing="false" onAction="#showAcademic" text="Academic Details" />
-      <Button fx:id="parent" layoutX="576.0" layoutY="356.0" mnemonicParsing="false" onAction="#showParent" text="Parent Details" />
+      <TextField fx:id="id" layoutX="252.0" layoutY="287.0" promptText="Student ID" />
+      <Button fx:id="personal" layoutX="85.0" layoutY="416.0" mnemonicParsing="false" onAction="#showPersonal" style="-fx-background-color: #28B4AD;" text="Personal Details" textFill="WHITE" />
+      <Button fx:id="academic" layoutX="299.0" layoutY="416.0" mnemonicParsing="false" onAction="#showAcademic" style="-fx-background-color: #28B4AD;" text="Academic Details" textFill="WHITE" />
+      <Button fx:id="parent" layoutX="534.0" layoutY="416.0" mnemonicParsing="false" onAction="#showParent" style="-fx-background-color: #28B4AD;" text="Parent Details" textFill="WHITE" />
+      <Label layoutX="218.0" layoutY="236.0" prefHeight="34.0" prefWidth="275.0" text="Enter your Student ID" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="27.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="71.0" prefHeight="51.0" prefWidth="431.0" text="Search Students Details" textFill="WHITE">
+         <font>
+            <Font name="Sanskrit Text" size="40.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
